@@ -13,13 +13,13 @@ When searching online for potential scraping-based data science projects, a numb
 
 While these types of projects are common, it is important that your project answers a number of new questions and does not repleat previous work. Listed below are a number of potential projects you and your group may select from for your course project. These may also help inspire your own project ideas. The following projects are typically organized such that only one group may complete the project and therefore they may be claimed on a first-come-first-served basis. As metioned, please be sure to fully research your selected project idea before settling on it.
 
----
-
 ## Structured Project Ideas 
 
 The following subsections describe several structured projects that students are welcome to consider and fully research them for project feasability before commiting to one of these ideas.
 
-### Web Scraping Crypto Currency Prices to Explore what Makes certain Coins Appealing
+---
+
+## Project 1: Web Scraping Crypto Currency Prices to Explore what Makes certain Coins Appealing
 
 Recommended for:
  - Students interested in acquiring and analyzing financial data
@@ -35,7 +35,9 @@ Analytical methods to consider:
  - Word Mover's Distance (WMD) to determine which coins most resemble each other based on systematically obtained text describing each coin.
  - Clustering algorithms could be used (on trading information and/or descirptive information) to group similar coins. Perhaps a "diversified cypto portfolio" could be identifed from these clusters.
 
-### The Modal Patient - Identifying the Characteristics of the Most Common Patient in a Hospital
+---
+
+## Project 2:  The Modal Patient - Identifying the Characteristics of the Most Common Patient in a Hospital
 
 When treating a patient in a hospital/clinical setting, numerous patient characteristics are taken into account. When we think of the "typical patient", we would likely consider the _average_ of each one-dimensional characteristic of interest and erroneously combine these to for a multi-dimensional view of the "average patient". This combination of one-dimensional means is unlikely to actually describe an actual patient; we should instead be identifying the "modal patient". That is, the most common characteristics (the mode) of the multi-dimensional distributionn of the patient characteristics considered. This analysis could have important bearings on specific patient treatments, physician training, and possibly on identifying potential biases of machine learning models deployed in clinical settings (due to intrinsic class imbalance).
 
@@ -52,8 +54,9 @@ Important links:
  - [The MIMIC Website](https://mimic.mit.edu/)
  - [The MIMIC Codebase](https://github.com/MIT-LCP/mimic-code/)
 
+---
 
-### The Modal Canadian - Identifying the Socio-Demographic Characteristic of the Most Common Canadian
+## Project 3: The Modal Canadian - Identifying the Socio-Demographic Characteristic of the Most Common Canadian
 
 Understanding how the socio-demographic landscape of a country varies across time (over the years) and space (within specific regions/provinces/territories) is important to sociological research and to informing governmental policy.  When we think of identifying the "typical/average Canadian/household" we would likely aggregate the results of a number of one-dimensional averages and erroneously assume that the resulting aggregate likely represnents common Canadians/households. This combination of one-dimensional means is unlikely to actually describe an actual person/household; we should instead be identifying the "Modal Canadian". That is, the most common characteristics (the mode) of the multi-dimensional distributionn of the population characteristics considered. This analysis could have important bearings on studying how the frequency of certain demographics vary over time (by year) and space (by region). Implementation of this analysis in such a way that it could be reproduced for each release of the Canadian census promises to be a useful and unique demonstration of how Canadian demographics are shifting.
 
@@ -73,18 +76,21 @@ The codebase for this project should developed in such a way that meta-catagorie
 
 The analysis should be completed over both the dimension of time (repeated for each version of the census) as well as over the dimension of space (repeated for each province/territory). 
 
-### Analyses of Campus-Base IoT Sensor Data Streams
+---
+
+## Project 4: Analyses of Campus-Base IoT Sensor Data Streams
 
 TODO
 
 ---
 
-### Undefined Project Ideas
+## Undefined Project Ideas
 
 Students are welcome to consider these topic ideas and fully research them for project feasability before commiting to one of these ideas:
- - Scrape the data-rich [Climate Action Tracker](https://climateactiontracker.org) website for country-specific emmision/climate policy data and correlate with governmental  political leaning.
+ - *Project "Political Climate"*: Scrape the data-rich [Climate Action Tracker](https://climateactiontracker.org) website for country-specific emmision/climate policy data and correlate with governmental  political leaning.
  - TODO
 
+---
 
 ## Links to Resources on Useful Topics (and Unique Analysis Methods)
 
