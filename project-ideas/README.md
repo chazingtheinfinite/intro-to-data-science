@@ -2,7 +2,15 @@
 
 Course Developer: Kevin Dick ([kevin.dick@carleton.ca](mailto:kevin.dick@carleton.ca))
 
+*NOTE: This document will evolve during the course and students are advised to revisit it regularly for any useful changes.*
+
 ---
+
+## Course Project Overview
+
+Data Science is a field where practitioners tend to have "T-shaped knowledge"; all Data Scientists share a general foundation of statistics, probability, programming, and data manipulation skills and each Data Scientists then develops expertise in one or multiple specific domains. A Data Scientist specialized in text-processing and Natural Language Processing has a skillset and analytical pipeline that would be altogether different from a Data Scientist that creates Recommendation Systems for e-commerce products or a Data Scientist that works on image processing for Computer Vision applications.
+
+That said, the technical material taught in the course functions to provide the Data Science foundations required to take on a Data Science project, however each of the projects you will work on within the course will _require autodidacticism on the behalf of all students and groups_. That said, the project topics listed below cover a broad range of topics, domains, and each require a specialized set of skills that you and your team will need to develop independently as you work through the project.
 
 Your Intro. to Data Science course project must include *online data scraping to generate a new dataset* and/or *analyze the dataset in unique ways to produce new knoweldge*. Typically a scraping-based project will naturally include both of these criteria. We recommend that groups extensively research their proposed scraping target prior to committing to a given project topic. For groups that prefer to avoid a scraping component as part of their projects, please consider one of the topics listed below (and in each subdirectory here) for details on the proposed analysis method. If student groups are interested in defining their own project based on an existing dataset, it is imperative that you communicate with course developer (Kevin Dick; mailto:kevin.dick@carleton.ca) about your proposed project. 
 
@@ -11,7 +19,9 @@ When searching online for potential scraping-based data science projects, a numb
  - Social Media Scraping and NLP Analysis
  - eCommerce Product Price/Review Scraping and Comparison
 
-While these types of projects are common, it is important that your project answers a number of new questions and does not repleat previous work. Listed below are a number of potential projects you and your group may select from for your course project. These may also help inspire your own project ideas. The following projects are typically organized such that only one group may complete the project and therefore they may be claimed on a first-come-first-served basis. As metioned, please be sure to fully research your selected project idea before settling on it.
+While these types of projects are common, it is important that your project answers a number of new questions and does not repleat previous work. Listed below are a number of potential projects you and your group may select from for your course project. Certain projects already have existing datasets and therefore do not require a scraping component, however they each present an unique analysis that hadn't already been carried out on these data. These may also help inspire your own project ideas. The following projects are typically organized such that only one group may complete the project and therefore they may be claimed on a first-come-first-served basis. As metioned, please be sure to fully research your selected project idea (as part of Project Phase 1) and  before choosing to settle on it.
+
+Finally, all projects are required to be organized using the [Cookiecutter Data Science Project Structure](https://drivendata.github.io/cookiecutter-data-science/#cookiecutter-data-science). Please read all of the documentation and related links to ensure that your project follows the standards of typical Data Science projects.
 
 ## Structured Project Ideas 
 
@@ -48,7 +58,7 @@ Recommended for:
  - Students who prefer manipulating an existing dataset (PostgreSQL expertise required) and with an established code community
  - Students who will respect a strict "no data leakage" policy for this project (given that it deals with sensitive clinical data)
 
-The [MIMIC-IV dataset](https://physionet.org/content/mimiciv/0.4/) is a recently released update of the MIMIC-III dataset of patient admission and care at the Beth Deconess 
+The [MIMIC-IV dataset](https://physionet.org/content/mimiciv/0.4/) is a recently released update of the MIMIC-III dataset of patient admission and care at the Beth Israel Deaconess Medical Center in Boston Massachusetts. The Dataset contains a wealth of information about patients, hospital admissions, prescribed medications, lab test results, and unstructured clinical notes. The data are organized into several SQL tables and can be queried and combined to generate various insights. The data are available only to pre-authorized researchers (Course Developer, Kevin Dick, has access) and strictly requires that data cannot be leaked or republished. Students who choose to pursue this project will be asked to sign forms to affirm proper use of these data during the course project.
 
 Important links:
  - [The MIMIC Website](https://mimic.mit.edu/)
@@ -80,7 +90,27 @@ The analysis should be completed over both the dimension of time (repeated for e
 
 ## Project 4: Analyses of Campus-Base IoT Sensor Data Streams
 
-TODO
+More details of this project are forthecoming.
+
+Recommended for:
+ - Students interested in time-series analyses and GIS-based applications
+ - Students interested in working with sensor data streams
+
+Research Questions:
+ - Can we detect classroom occupancy from in-class CO2 detectors? (ground-truth obtained from campus in-person attendance)
+ - Can we quantify the _number_ of individuals from in-class CO2 detectors? (ground-truth obtained from campus in-person attendance)
+ - Can we determine the _biological gender composition_ from in-class CO2 detectors? (ground-truth obtained from campus in-person attendance)
+ - Using a network of campus CO2 detectors, can we detect climate change? That is, can we detect a notable "drifting rise" in CO2 levels at a hyper-regional level through networked sensors to collectively denoise individual measurements? One opportunity would be to corroborate findings with a similar city-wide study in Munich using an alternative CO2 measurement method: [Article](https://www.tum.de/en/about-tum/news/press-releases/details/36482/); [Website](https://atmosphere.ei.tum.de/); [Data](https://retrieval.esm.ei.tum.de/); [Publication](https://amt.copernicus.org/articles/14/1111/2021/).
+
+
+---
+
+### Project 5: Industry Collaboration Project with Lytica Inc.
+
+Details for this project are forthecoming.
+
+Relevant Links:
+ - Company Website: [lytica.com](https://www.lytica.com/) 
 
 ---
 
@@ -88,7 +118,10 @@ TODO
 
 Students are welcome to consider these topic ideas and fully research them for project feasability before commiting to one of these ideas:
  - *Project "Political Climate"*: Scrape the data-rich [Climate Action Tracker](https://climateactiontracker.org) website for country-specific emmision/climate policy data and correlate with governmental  political leaning.
- - TODO
+ - *Project Network Malware Detection*: The [Stratosphere Lab](https://www.stratosphereips.org/) has several [published datasets of malware attacks on IoT network traffic](https://www.stratosphereips.org/datasets-overview) for research applications. For research-oriented students, this could be an excellent project foundation for a subsequent Master's thesis on malware traffic captures; see this series of [previous Master's projects](https://www.stratosphereips.org/thesis-projects) using these data. For example, a course project might attempt to improve the [Random Forest-based Malware Detection Method from this thesis](https://dspace.cvut.cz/bitstream/handle/10467/69244/F3-BP-2017-Smolik-Daniel-Graph-Based-Analysis-of-Malware-Network-Behaviors.pdf) by using Graph Neural Networks (or another deep learning architecture); see [this GitHub repo](https://github.com/dansmoliik/Malware-graph-detection) to get started.
+ - *Project COVID Policies & Perceptions*:  Track how regional policies around COVID have changed over the years and how people affected by these policy implementations react to the changes. This will require scraping social media and news websites and students will need to independently learn some basic NLP analytical techniques. 
+ - *Project Alzheimer's Impacts*: Relationship between Alzheimer's cases, mental stress rates, unemployment, and demographics in different countries. This project would require scraping numerous resources and aggregating several datasets (could be very hard).
+ - *Project Amazon Price Reaction*: Can we measure/quantify how much specific Amazon product prices deviate in relation to global events? This work would require scraping product price information before and after specific (and likely/necessarily related) events to quantify the deviation of prices as a reaction to external events (and ideally independently of other confounding factors). In lieu of price variation, sentiment analysis on certain product reviews could be useful too as in the example of [Negative Candle Reviews related to COVID loss of smell symptoms](https://www.washingtonpost.com/business/2020/12/01/covid-scented-candle-reviews/). Certain website have tracked historical data such as CamelCamelCamel (no API or data download, would need to extract from chart images [HARD]) and Keepa (has an API, but requires paid subscription and trial version is very limited).
 
 ---
 
