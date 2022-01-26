@@ -88,12 +88,11 @@ The analysis should be completed over both the dimension of time (repeated for e
 
 ---
 
-## Project 4: Hate Speech Detection - (a) Creating a Hate Speech Detection Model using Twitter Data
+## Project 4: Hate Speech Detection
 
 ### Project 4a: Creating a Hate Speech Detection Model using Twitter Data 
 
 The detection of hate speech online is critical in the fight against prejudice and the targetting of minority groups in the information age. The TweetEval dataset could be used to train a hate-detection model and improve upon the performance of the [MetaHate model](https://ieeexplore.ieee.org/abstract/document/9672023).
-
 
 ### Project 4b: Mapping the Twittersphere Hate Language Landscape
 
@@ -104,9 +103,18 @@ Using a hate detection model, the Twitter API can be used to detect hate speech 
 This work is expected to be applied to tweets published over the course of the semester (at least a month's worth of sampled tweets). These tweets could be localized to Canada-only for a Canadian hate landscape analysis.
 The findings of this work can be compared to a similar study on an [Italian Twitter Hate Map](https://www.tandfonline.com/doi/full/10.1080/0144929X.2019.1607903). 
 
+### Project 4c: Mapping the Twittershpere Incel Hate Speech Landscape
+
+**TW: Incel-related language: this project will contain stong, offensive language and may be triggering to certain individuals.**
+
+This project is a specific variant of the 4b project; essentially both could be completed in a single semester course-long project.
+
+Using an existing Incel speech detector (see this [paper](https://dl.acm.org/doi/pdf/10.1145/3400806.3400808) as a reference), the Twitter API can be leveraged to source current posts and identify those that are etected as incel hate speech. This would enable the mapping of twitter-based incel hate speech for further analysis.
+
 Recommended for:
  - Students interested in NLP machine learning model generation/application
  - Students interested in acquiring and analyzing Twitter data (millions of tweets)
+ - Students interested in Social Good projects and the betterment of humanity
 
 ---
 
