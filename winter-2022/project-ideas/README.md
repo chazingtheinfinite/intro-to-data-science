@@ -88,7 +88,29 @@ The analysis should be completed over both the dimension of time (repeated for e
 
 ---
 
-## Project 4: Analyses of Campus-Base IoT Sensor Data Streams
+## Project 4: Hate Speech Detection - (a) Creating a Hate Speech Detection Model using Twitter Data
+
+### Project 4a: Creating a Hate Speech Detection Model using Twitter Data 
+
+The detection of hate speech online is critical in the fight against prejudice and the targetting of minority groups in the information age. The TweetEval dataset could be used to train a hate-detection model and improve upon the performance of the [MetaHate model](https://ieeexplore.ieee.org/abstract/document/9672023).
+
+
+### Project 4b: Mapping the Twittersphere Hate Language Landscape
+
+**TW: This project will contain stong, offensive language and may be triggering to certain individuals.**
+
+Using a hate detection model, the Twitter API can be used to detect hate speech and then for positive detections, vectorize the tweet using Word2Vec and all hate-tweets can be clustered and visualized/analyzed.
+
+This work is expected to be applied to tweets published over the course of the semester (at least a month's worth of sampled tweets). These tweets could be localized to Canada-only for a Canadian hate landscape analysis.
+The findings of this work can be compared to a similar study on an [Italian Twitter Hate Map](https://www.tandfonline.com/doi/full/10.1080/0144929X.2019.1607903). 
+
+Recommended for:
+ - Students interested in NLP machine learning model generation/application
+ - Students interested in acquiring and analyzing Twitter data (millions of tweets)
+
+---
+
+## Project 5: Analyses of Campus-Base IoT Sensor Data Streams
 
 More details of this project are forthecoming.
 
