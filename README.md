@@ -1,7 +1,8 @@
 # Introduction to Data Science
 
 Course Instructor: (W22) [Dr. Hoda Khalil](https://hakhalil.github.io/)
-Course Developer: (W22) [Kevin Dick](https://kevindick.ai/)
+
+Course Co-Developer: (W22) [Kevin Dick](https://kevindick.ai/)
 
 A repository containing project-related materials related to the Carleton University offering of Intro to Data Science.
 

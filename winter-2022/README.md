@@ -2,7 +2,7 @@
 
 Course Instructor: [Dr. Hoda Khalil](https://hakhalil.github.io/)
 
-Course Developer: [Kevin Dick](https://kevindick.ai/)
+Course Co-Developer: [Kevin Dick](https://kevindick.ai/)
 
 ---
 
