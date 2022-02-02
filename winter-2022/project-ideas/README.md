@@ -1,6 +1,6 @@
 # Project Ideas to Select from or to Inspire your Own
 
-Course Developer: Kevin Dick ([kevin.dick@carleton.ca](mailto:kevin.dick@carleton.ca))
+Course Co-Developer: Kevin Dick ([kevin.dick@carleton.ca](mailto:kevin.dick@carleton.ca))
 
 *NOTE: This document will evolve during the course and students are advised to revisit it regularly for any useful changes.*
 
@@ -135,12 +135,58 @@ Research Questions:
 
 ---
 
-### Project 5: Industry Collaboration Project with Lytica Inc.
+### Project 5: Statistics Canada Collaboration Projects 
 
-Details for this project are forthecoming.
+#### Project 5a: Geospatial layer on active transportation (AT)
 
-Relevant Links:
- - Company Website: [lytica.com](https://www.lytica.com/) 
+*Goal:* The goal is to prepare a geospatial dataset of active transportation (AT) network to be used in subsequent socio-economic analysis projects. Tasks will include building an inventory of available open datasets on AT, integration of the identified datasets and (or) a descriptive analysis of the datasets.
+
+*Background*: The Public Health Agency of Canada (2014a) defines active transportation (AT) as “using your own power to get from one place to another” via “walking, biking, skateboarding, in-line skating/rollerblading, jogging and running, non-mechanized wheel chairing, snowshoeing and cross-country skiing”. [Public Health Agency of Canada (PHAC) (2014a). Active transportation.](https://www.canada.ca/en/public-health/services/being-active/active-transportation.html).
+
+AT together with public transit constitute sustainable transportation for having minimal environmental impact. [Statistics Canada (2017). Commuters using sustainable transportation in census metropolitan areas. Census in Brief. November29, 2017. Catalogue no. 98-200-X2016029.](https://www12.statcan.gc.ca/census-recensement/2016/as-sa/98-200-x/2016029/98-200-x2016029-eng.cfm).
+
+Infrastructure Canada defines AT infrastructure as “physical structures and the built environment that support active transportation, such as pathways, bike lanes, multi-use trails and widened sidewalks”, and considering that public transit is integral to any AT network, it is essentially  “a complete network that allows users to safely move through their communities and between destinations, from main streets to schools, parks, public transit hubs and residential neighbourhoods”.
+[Infrastructure Canada (2021). Canada's First National Active Transportation Strategy.](https://www.infrastructure.gc.ca/trans/active-actif-eng.html)
+
+*Data:* Authoritative (official) data on AT infrastructure (Walking and Biking) is available for many municipalities in Canada through open data portals. However, the scope, richness and structure of these data vary significantly between geographical units.
+
+#### Project 5b: Sustainable development goal indicators for public transit
+
+*Goal:* The goal is to prepare an inventory of available public transit data across municipality, to determine a process to compute indicator 11.2.1 of the [United Nations Sustainable Development Goals: Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities](https://sdg.data.gov/11-2-1/) and (or) indicator 11.4.1 of the [Canadian Indicator Framework Sustainable Development Goals: Percentage of the population living within 500 meters of a public transport stop](https://sdgcif-data-canada-oddcic-donnee.github.io/11-4-1/).
+
+*Background:* On June 22, 2021, Statistics Canada has launched the [Canadian Indicator Framework (CIF)](https://sdgcif-data-canada-oddcic-donnee.github.io/) for the Sustainable Development Goals (SDGs), a foundational component for Canada to track and report on progress on its priorities for achieving the 2030 Agenda for Sustainable Development. The agenda, adopted by all United Nations member states in 2015, is a 15-year global framework centred on the set of 17 SDGs.
+
+Under the CIF, there is an indicator, CIF 11.4.1: “Percentage of the population living within 500 meters of a public transport stop”. The indicator is reflective of the UN Sustainable Development Goal 11, Indicator 11.2.1: “Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities”. The UN defines “convenient access” as living/working/studying within a service area of 500 m, using the street network distance, from the nearest public transit stop.
+
+*Data:* The data on public transit routes are commonly reported by public transit agencies in the General Transit Feed Specification (GTFS). GTFS data is made available by many municipalities as open data. They include routes and stops for public transit modes of transportation.
+
+Depending on availability, other elements of public transit infrastructure could be considered: railroad stations, light rail lines, terminal ‘park-and-ride’ facilities and others.
+
+#### Project 5c: Rural access index (RAI)
+
+*Goal:* The goal is to calculate RAI for all of Canada at a high granularity level, for dissemination blocks (~500,000 polygons in Canada) and dissemination areas (~50,000 polygons in Canada), using the standard and then improved upon United Nations Methodology.
+
+*Background:* Statistics Canada tracks and reports on progress towards achieving the United Nations 2030 Agenda for Sustainable Development. The agenda, adopted in 2015 by all United Nations member states, is a 15-year global framework centred on the [set of 17 sustainable development goals](https://www144.statcan.gc.ca/sdg-odd/index-eng.htm). 
+
+RAI is defined through Indicator 9.1.1 of the [United Nations Sustainable Development Goals](https://sdg.data.gov/9-1-1/): Proportion of the rural population who live within 2 km of an all-season road.
+
+A high level world map of RAI is available here: [https://rai.azavea.com/](ttps://rai.azavea.com/)
+
+*Data:* Statistics Canada [Geographic Attribute File](https://open.canada.ca/data/en/dataset/32f1a777-9fcf-4e4a-8c66-82c66a2e76f1), [Census Boundary file](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2016-eng.cfm) for dissemination blocks (DBs), and the [National Road Network](https://open.canada.ca/data/en/dataset/3d282116-e556-400c-9306-ca1a3cada77f) data.
+
+---
+
+### Project 6: Scraping GoFundMe to Detect Forein Interference
+
+Can we scrape the GoFundMe active fundraisers to ask a number of questions about the types of fundraisers ongoing during the pandemic? 
+
+Can we scrape the history of donations for a given fundraiser to query where donations are coming from? 
+
+For large-scale fundraisers (say >1M$), does the history of donations for certain fundraisers contain a significantly larger proportion of "Anonymous" donations (perhaps indicative of significant influence from foreign actors?) 
+
+See [Tutorial 2](https://youtu.be/fZG4bWT8CSo) for an implementation of a fundraiser donation history scraper.
+
+Individual GoFundMe pages can be scraped by adapting this [GitHub GoFundMe Page Scraper](https://github.com/lmeninato/GoFundMe). The [GoFundMe Wiki Page](https://en.wikipedia.org/wiki/GoFundMe) lists a number of the biggest fundraisser projects, many with 'Active' status that may serve the basis of this project. This is a [CBC News article with some preliminary findings on the Freedom Convoy 2022 Fundraiser](https://www.cbc.ca/news/politics/vaccine-protest-convoy-gofundme-donations-1.6330594#:~:text=GoFundMe%20only%20makes%20public%20a,as%20new%20donations%20come%20in.) and a potential contact at CBC news that may be willing to share the ~35K donations they have already scraped every half hour since the morning of Monday January 24th, 2022.
 
 ---
 

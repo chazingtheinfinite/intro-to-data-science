@@ -77,9 +77,10 @@ def main():
 	amounts = elems_to_parse.find_elements_by_class_name("weight-900")
 	time_since = elems_to_parse.find_elements_by_class_name("m-meta-list-item")
 	time_since = [i for i in time_since if  not '$' in i.text] # remove duplicate amounts in capture
-	print([i.text for i in names])
-	print([i.text for i in amounts])
-	print([i.text for i in time_since])
+	
+	# Print out component lists if desired
+	if args.verbose: print(f'List of Names\n:{[i.text for i in names]}\nList of Amounts:\n{[i.text for i in amounts]}\nList of Times:{[i.text for i in time_since]}')
+	
 	# Combine each of the elements of interest into a three-tuple: (<donor-name>, <donated-amount>, <time-since-donation>)
 	combined = [(names[i].text, amounts[i].text, time_since[i].text) for i in range(len(names))]
 	
