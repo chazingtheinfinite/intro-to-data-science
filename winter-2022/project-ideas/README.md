@@ -152,7 +152,7 @@ Infrastructure Canada defines AT infrastructure as “physical structures and th
 
 ---
 
-#### Project 5b: Sustainable development goal indicators for public transit
+### Project 5b: Sustainable development goal indicators for public transit
 
 *Goal:* The goal is to prepare an inventory of available public transit data across municipality, to determine a process to compute indicator 11.2.1 of the [United Nations Sustainable Development Goals: Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities](https://sdg.data.gov/11-2-1/) and (or) indicator 11.4.1 of the [Canadian Indicator Framework Sustainable Development Goals: Percentage of the population living within 500 meters of a public transport stop](https://sdgcif-data-canada-oddcic-donnee.github.io/11-4-1/).
 
@@ -164,9 +164,9 @@ Under the CIF, there is an indicator, CIF 11.4.1: “Percentage of the populatio
 
 Depending on availability, other elements of public transit infrastructure could be considered: railroad stations, light rail lines, terminal ‘park-and-ride’ facilities and others.
 
-### Project 5c: Rural access index (RAI)
-
 ---
+
+### Project 5c: Rural access index (RAI)
 
 *Goal:* The goal is to calculate RAI for all of Canada at a high granularity level, for dissemination blocks (~500,000 polygons in Canada) and dissemination areas (~50,000 polygons in Canada), using the standard and then improved upon United Nations Methodology.
 
