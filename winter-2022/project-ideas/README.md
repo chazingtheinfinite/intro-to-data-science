@@ -29,7 +29,7 @@ The following subsections describe several structured projects that students are
 
 ---
 
-## Project 1: Web Scraping Crypto Currency Prices to Explore what Makes certain Coins Appealing
+## ~~Project 1: Web Scraping Crypto Currency Prices to Explore what Makes certain Coins Appealing~~ (Taken)
 
 Recommended for:
  - Students interested in acquiring and analyzing financial data
@@ -152,7 +152,7 @@ Infrastructure Canada defines AT infrastructure as “physical structures and th
 
 ---
 
-### Project 5b: Sustainable development goal indicators for public transit
+### ~~Project 5b: Sustainable development goal indicators for public transit~~ (Taken)
 
 *Goal:* The goal is to prepare an inventory of available public transit data across municipality, to determine a process to compute indicator 11.2.1 of the [United Nations Sustainable Development Goals: Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities](https://sdg.data.gov/11-2-1/) and (or) indicator 11.4.1 of the [Canadian Indicator Framework Sustainable Development Goals: Percentage of the population living within 500 meters of a public transport stop](https://sdgcif-data-canada-oddcic-donnee.github.io/11-4-1/).
 
