@@ -137,7 +137,7 @@ Research Questions:
 
 ### Project 5: Statistics Canada Collaboration Projects 
 
-#### Project 5a: Geospatial layer on active transportation (AT)
+### Project 5a: Geospatial layer on active transportation (AT)
 
 *Goal:* The goal is to prepare a geospatial dataset of active transportation (AT) network to be used in subsequent socio-economic analysis projects. Tasks will include building an inventory of available open datasets on AT, integration of the identified datasets and (or) a descriptive analysis of the datasets.
 
@@ -149,6 +149,8 @@ Infrastructure Canada defines AT infrastructure as “physical structures and th
 [Infrastructure Canada (2021). Canada's First National Active Transportation Strategy.](https://www.infrastructure.gc.ca/trans/active-actif-eng.html)
 
 *Data:* Authoritative (official) data on AT infrastructure (Walking and Biking) is available for many municipalities in Canada through open data portals. However, the scope, richness and structure of these data vary significantly between geographical units.
+
+---
 
 #### Project 5b: Sustainable development goal indicators for public transit
 
@@ -162,7 +164,9 @@ Under the CIF, there is an indicator, CIF 11.4.1: “Percentage of the populatio
 
 Depending on availability, other elements of public transit infrastructure could be considered: railroad stations, light rail lines, terminal ‘park-and-ride’ facilities and others.
 
-#### Project 5c: Rural access index (RAI)
+### Project 5c: Rural access index (RAI)
+
+---
 
 *Goal:* The goal is to calculate RAI for all of Canada at a high granularity level, for dissemination blocks (~500,000 polygons in Canada) and dissemination areas (~50,000 polygons in Canada), using the standard and then improved upon United Nations Methodology.
 
