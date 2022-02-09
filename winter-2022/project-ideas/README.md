@@ -66,7 +66,7 @@ Important links:
 
 ---
 
-## Project 3: The Modal Canadian - Identifying the Socio-Demographic Characteristic of the Most Common Canadian
+## ~~Project 3: The Modal Canadian - Identifying the Socio-Demographic Characteristic of the Most Common Canadian~~ (Taken)
 
 Understanding how the socio-demographic landscape of a country varies across time (over the years) and space (within specific regions/provinces/territories) is important to sociological research and to informing governmental policy.  When we think of identifying the "typical/average Canadian/household" we would likely aggregate the results of a number of one-dimensional averages and erroneously assume that the resulting aggregate likely represnents common Canadians/households. This combination of one-dimensional means is unlikely to actually describe an actual person/household; we should instead be identifying the "Modal Canadian". That is, the most common characteristics (the mode) of the multi-dimensional distributionn of the population characteristics considered. This analysis could have important bearings on studying how the frequency of certain demographics vary over time (by year) and space (by region). Implementation of this analysis in such a way that it could be reproduced for each release of the Canadian census promises to be a useful and unique demonstration of how Canadian demographics are shifting.
 
